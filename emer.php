@@ -254,7 +254,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   <th><?php echo $row["since"]; ?></th>
   <th><a href="mailto:<?php echo $row["email"]; ?>"><i class="fas fa-envelope" style="font-size:30px;color:white;" ></i></a></th>
   <th><a href="process1.php?id=<?php echo $row["id"]; ?>">Delete</a></th>
-  <th> <button onclick="openForm()">Chat</button> </th>
+  <th> <a href="https://wa.me/916363597694text=hey how may i help u"><button>Chat</button></a></th>
   </tr>
   <?php
   $i++;
